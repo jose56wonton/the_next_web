@@ -281,6 +281,11 @@ ul.bottom-nav-right{
         flex-direction: row;
        
     }
+    .top-headlines svg{
+      height:90px;
+      width:350px;
+      margin:40px;
+    }
 
     .top-headlines section.big{
         flex: 2;
@@ -384,8 +389,12 @@ ul.bottom-nav-right{
     .latest-news p{
       color: var(--light_grey);
       font-size: 12px;
-      display: block;
+      display: inline-block;
       padding: 6px 0;
+
+    }
+    .latest-news p.name:hover{
+      color: #000;
     }
 
     
@@ -443,6 +452,9 @@ ul.bottom-nav-right{
     .latest-news p{
       color: var(--light_grey);
     }
+    .latest-news p.name:hover{
+      color: #000;
+    }
 
 
 }
@@ -498,6 +510,9 @@ ul.bottom-nav-right{
     }
     .latest-news p{
       color: var(--light_grey);
+    }
+    .latest-news p.name:hover{
+      color: #000;
     }
 }
 
@@ -562,14 +577,17 @@ ul.bottom-nav-right{
       flex:1;
       list-style: none;
       font-size: 13px;
-      color: var(--light-grey)
+      
     }
+    
     .article-list ul.section-headline li {
       padding-left: 1em;
       text-indent: -.7em; 
       padding:10px;
       border-bottom: 1px solid #eee;
+      color: var(--light-grey);
     }
+  
     .article-list ul.section-headline li::before {
       content: "• ";
       color: #f42; 
@@ -582,6 +600,9 @@ ul.bottom-nav-right{
       color:#f42;
       font-weight: bold;
       
+    }
+    .article-list p:hover{
+      text-decoration: underline;      
     }
     .article-list h1{
       color:#f42;
@@ -640,18 +661,22 @@ ul.bottom-nav-right{
       flex:5;
       list-style: none;
       font-size: 13px;
-      color: var(--light-grey)
+      
     }
+    
     .article-list ul.section-headline li {
       padding-left: 1em;
       text-indent: -.7em; 
       padding:10px;
       border-bottom: 1px solid #eee;
+      color: var(--light-grey);
     }
+    
     .article-list ul.section-headline li::before {
       content: "• ";
       color: #f42; 
     }
+   
     .article-list h3{
       color:#f42;
 
@@ -660,6 +685,9 @@ ul.bottom-nav-right{
       color:#f42;
       font-weight: bold;
       
+    }
+    .article-list p:hover{
+      text-decoration: underline;      
     }
     .article-list h1{
       color:#f42;
@@ -722,26 +750,32 @@ ul.bottom-nav-right{
       flex:5;
       list-style: none;
       font-size: 13px;
-      color: var(--light-grey)
+      
     }
+    
     .article-list ul.section-headline li {
       padding-left: 1em;
       text-indent: -.7em; 
       padding:10px;
       border-bottom: 1px solid #eee;
+      color: var(--light-grey);
     }
+    
     .article-list ul.section-headline li::before {
       content: "• ";
       color: #f42; 
     }
+   
     .article-list h3{
       color:#f42;
 
     }
     .article-list p{
       color:#f42;
-      font-weight: bold;
-      
+      font-weight: bold;      
+    }
+    .article-list p:hover{
+      text-decoration: underline;      
     }
     .article-list h1{
       color:#f42;
