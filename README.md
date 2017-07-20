@@ -1,4 +1,4 @@
-# The New Web
+# Responsive Design (The New Web)
 This is my 6th HTML/CSS project. It is a clone The New Web's [homepage](https://thenextweb.com/#.tnw_zzwBKA4c).
 To see the exact version go to this [web archive](http://web.archive.org/), and look for the date that is closest to July 19th, 2017.
 
